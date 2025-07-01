@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Tracker App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Fitness Tracker</h1>
+
+    <form id="fitnessForm">
+      <input type="number" id="steps" placeholder="Steps walked" required>
+      <input type="number" id="calories" placeholder="Calories burned" required>
+      <input type="number" id="workout" placeholder="Workout time (min)" required>
+      <button type="submit">Add Entry</button>
+    </form>
+
+    <div class="summary">
+      <h2>Today's Summary</h2>
+      <p id="stepsSummary">Steps: 0</p>
+      <p id="caloriesSummary">Calories: 0</p>
+      <p id="workoutSummary">Workout Time: 0 min</p>
+    </div>
+  </div>
+
+  <script src="cscript.js"></script>
+</body>
+</html>
