@@ -1,0 +1,7 @@
+Hello,
+
+You can reach us at support@codealpha.tech or team@openai.com. 
+Also try feedback@example.org.
+
+Regards,
+The Team
