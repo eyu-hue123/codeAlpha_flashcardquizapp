@@ -1,0 +1,42 @@
+1. What Is Phishing?
+Phishing is a type of cyberattack where attackers trick individuals into giving up sensitive information like passwords, credit card numbers, or login credentials—often by pretending to be trustworthy sources. These attacks are commonly carried out via email, fake websites, or text messages.
+
+---
+
+2. How to Recognize Phishing Emails
+- Generic Greetings: Emails starting with "Dear user" or "Valued customer" instead of your name.
+- Urgency: Messages that create a sense of panic, such as "Act now or your account will be closed."
+- Suspicious Links: Hover over links to check if the URL matches the sender's domain.
+- Attachments: Be cautious of unexpected attachments, especially with file extensions like .exe, .scr, or .js.
+
+---
+
+3. Spotting Fake Websites
+- Domain Typos: Attackers often use slightly altered domain names, such as amaz0n.com instead of amazon.com.
+- Unsecured Sites: Legitimate websites use HTTPS (look for the padlock symbol in the browser).
+- Poor Design: Fake websites often have low-quality logos, mismatched fonts, or broken layouts.
+- Pop-Up Login Forms: Legitimate websites rarely use pop-ups for login credentials.
+
+---
+
+4. Social Engineering Tactics
+Social engineering is the psychological manipulation of individuals to gain access to sensitive information. Common tactics include:
+- Impersonation: Pretending to be your boss, IT support, or a trusted company.
+- Emotional Manipulation: Using fear, urgency, or greed to provoke action.
+- Building Trust: Spear phishing involves personalized attacks after gathering information about the target.
+
+---
+
+5. Best Practices to Stay Safe
+- Avoid Clicking Unknown Links: Always verify links before clicking.
+- Verify Sender Information: Check the sender's email address for inconsistencies.
+- Enable Multi-Factor Authentication (MFA): Adds an extra layer of security.
+- Update Software Regularly: Keep your operating system and antivirus software up to date.
+- Report Suspicious Emails: Notify your IT department or use the "Report Phishing" option in your email client.
+
+---
+
+6. Real-World Examples
+- Twitter Breach (2020): Attackers used spear phishing to target employees and gain access to internal systems.
+- Fake PayPal Emails: Scammers send emails requesting password resets to steal login credentials.
+- COVID-19 Relief Scams: Fraudulent emails pretending to offer government assistance during the pandemic.

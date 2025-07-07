@@ -1,0 +1,32 @@
+Quiz Questions
+Here are some sample quiz questions to test awareness:
+
+1. What’s the safest way to check if a link is legitimate?
+   - A) Click it and find out  
+   - B) Hover over it and examine the URL ✔️  
+   - C) Ignore all emails with links  
+   - D) Reply to the sender for confirmation  
+
+2. Which of the following is a sign of phishing?
+   - A) A personalized greeting  
+   - B) A secure HTTPS website  
+   - C) A sense of urgency demanding immediate action ✔️  
+   - D) Proper grammar and spelling  
+
+3. What does HTTPS in a website URL indicate?
+   - A) The website is fake  
+   - B) The website is secure ✔️  
+   - C) The website is slow  
+   - D) The website is under maintenance  
+
+4. What should you do if you receive a suspicious email?
+   - A) Reply to the sender  
+   - B) Click the link to investigate  
+   - C) Report it to your IT department ✔️  
+   - D) Delete it without informing anyone  
+
+5. Which of the following is NOT a phishing tactic?
+   - A) Impersonation  
+   - B) Emotional manipulation  
+   - C) Building trust over time  
+   - D) Sending encrypted emails 
