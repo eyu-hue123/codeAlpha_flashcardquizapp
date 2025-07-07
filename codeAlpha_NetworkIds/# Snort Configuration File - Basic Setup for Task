@@ -1,0 +1,28 @@
+# Snort Configuration File - Basic Setup for Task 4
+
+# 1. Set network variables
+ipvar HOME_NET any
+ipvar EXTERNAL_NET any
+
+# 2. Configure rule path
+var RULE_PATH ./config
+
+# 3. Include local rules
+include $RULE_PATH/local.rules
+
+# 4. Logging and alert settings
+output alert_fast: stdout
+
+# 5. Set preprocessors (basic example)
+preprocessor stream5_global: max_tcp 8192, track_tcp yes, track_udp yes
+preprocessor http_inspect: global iis_unicode_map unicode.map 1252
+
+# 6. Specify input plugin
+config daemon
+config checksum_mode: all
+
+# 7. Define default policies
+config policy_mode: all
+
+# 8. Detection engine settings
+config detection: search-method ac-bnfa

@@ -1,0 +1,19 @@
+[] [1:1000001:1] Suspicious HTTP traffic detected []
+[Classification: Attempted Information Leak] [Priority: 2]
+04/07-14:32:27.915645 192.168.1.5:53218 -> 192.168.1.10:80
+TCP TTL:64 TOS:0x0 ID:54321 IpLen:20 DgmLen:1500 DF
+***AP*** Seq: 0x3A56C7B2  Ack: 0x6BC12FA3  Win: 65535  TcpLen: 32
+[Xref => http://www.snort.org/search/sid/1000001]
+
+[] [1:1000003:1] FTP brute-force suspected []
+[Classification: Brute-Force Attempt] [Priority: 2]
+04/07-14:34:55.128847 10.0.0.45:49152 -> 10.0.0.7:21
+TCP TTL:128 TOS:0x0 ID:2222 IpLen:20 DgmLen:60 DF
+***PA*** Seq: 0x1D2F3B0A  Ack: 0x4C19E8D3  Win: 4096  TcpLen: 20
+[Xref => http://www.snort.org/search/sid/1000003]
+
+[] [1:1000004:1] ICMP ping sweep detected []
+[Classification: Reconnaissance] [Priority: 3]
+04/07-14:36:12.003219 172.16.0.12 -> 172.16.0.255
+ICMP TTL:64 TOS:0x0 ID:1024 IpLen:20 DgmLen:60
+Type: 8  Code: 0  ID:512   Seq:1  ECHO
