@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="/static/chat/style.css">
+</head>
+<body>
+    <h1>Real-Time Chat</h1>
+    <input id="username" placeholder="Username">
+    <div id="chat-box">
+        {% for msg in messages %}
+        <p><strong>{{ msg.username }}</strong>: {{ msg.content }}</p>
+        {% endfor %}
+    </div>
+    <input id="messageInput" placeholder="Type a message">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        const usernameInput = document.getElementById("username");
+        const chatSocket = new WebSocket('ws://' + window.location.host + '/ws/chat/');
+
+        chatSocket.onmessage = function(e) {
+            const data = JSON.parse(e.data);
+            const chatBox = document.getElementById("chat-box");
+            chatBox.innerHTML += `<p><strong>${data.username}</strong>: ${data.message} <em>${data.timestamp}</em></p>`;
+        };
+
+        function sendMessage() {
+            const message = document.getElementById("messageInput").value;
+            const username = usernameInput.value || "Anonymous";
+            chatSocket.send(JSON.stringify({'username': username, 'message': message}));
+            document.getElementById("messageInput").value = "";
+        }
+    </script>
+</body>
+</html>
