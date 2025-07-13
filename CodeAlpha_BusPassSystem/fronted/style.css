@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f7;
+}
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+input, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+button {
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#response {
+  margin-top: 20px;
+  font-weight: bold;
+}

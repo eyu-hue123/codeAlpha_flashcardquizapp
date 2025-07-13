@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bus Pass Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bus Pass Booking System</h1>
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="text" id="origin" placeholder="Origin" required />
+      <input type="text" id="destination" placeholder="Destination" required />
+      <input type="date" id="travel_date" required />
+      <select id="payment">
+        <option value="Cash">Cash</option>
+        <option value="Card">Card</option>
+        <option value="Mobile Money">Mobile Money</option>
+      </select>
+      <button type="submit">Book Ticket</button>
+    </form>
+    <div id="response"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
